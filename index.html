@@ -25,24 +25,24 @@
             <form>
                 <div class="form-element" id="firstname">
                     <label for="first name">First name</label>
-                    <input type="text" name="firstname" id="first name">
+                    <input type="text" name="firstname" id="first name" size="50em">
                 </div>
                 <div class="form-element" id="lastname">
                     <label for="last name">Last name</label>
-                    <input type="text" name="lastname" id="last name">
+                    <input type="text" name="lastname" id="last name" size="50em">
                 </div>
                 <div class="form-element" id="email">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" size="50em">
                 </div>
                 <div class="form-element" id="age">
                     <label for="age">Age</label>
-                    <input type="number" name="age" id="age" min="18" max="65">
+                    <input type="number" name="age" id="age" min="18" max="65" >
                 </div>
 
                 <div class="form-element">
                     <label for="job">Requested employment</label>
-                    <select name="job" id="job">
+                    <select name="job" id="job" size="1em">
                         <option value="">Select an option</option>
                         <option value="Waiter">Waiter</option>
                         <option value="Chef">Chef</option>
@@ -52,11 +52,11 @@
                 </div>
 
                 <div class="form-element">
-                    <input type = "checkbox"> I want to take a second survey later
+                    <input type = "checkbox" id="checkbox"> I want to take a second survey later
                 </div>
 
                 <div class="form-element">
-                    <textarea  name="comment" form="usrform" rows="4" cols="50">In this space you can leave us your feedback and suggestions for the survey</textarea>
+                    <textarea  name="comment" id="commentbox" form="usrform" rows="10" cols="100">In this space you can leave us your feedback and suggestions for the survey</textarea>
                 </div>
 
 
@@ -81,7 +81,7 @@
                     </div>
                 </div>
 
-                <div class="form-element">
+                <div class="form-element" id="submit">
                     <input type="submit" value="Submit">
                 </div>
 

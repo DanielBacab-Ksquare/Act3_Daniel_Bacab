@@ -30,7 +30,7 @@ article{
 }
 
 .form-element{
-    font-size: 3em;
+    font-size: 2em;
     padding: 1em;
 }
 
@@ -49,4 +49,32 @@ article{
     padding: 1em;
     text-align: center;
 
+}
+
+#firstname{
+    display: inline-block;
+    position: relative;
+    left: -5em;
+}
+
+#lastname{
+    display: inline-block;
+    position: relative;
+    left: 9em;
+    top: -0.1em;
+}
+
+
+#commentbox{
+    font-size: 1em;
+}
+
+
+#submit{
+    text-align: right;
+    padding-right: 47.5em;
+}
+
+select{
+    font-size: 0.7em;
 }
