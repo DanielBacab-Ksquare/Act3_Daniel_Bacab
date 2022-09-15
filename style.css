@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-weight: bolder;
+}
+
+.top{
+    background-color: black;
+    color: white;
+    padding-bottom: -20em;
+}
+
+h1{
+    color: white;
+    font-size: 8em;
+    position: relative;
+    top: -1em;
+    right: -2.5em;
+}
+
+
+.middle{
+    position: relative;
+    top: -7em;
+    margin: auto;
+    text-align: center;
+}
+
+article{
+    font-size: 4em;
+}
+
+.form-element{
+    font-size: 3em;
+    padding: 1em;
+}
+
+.radbottommenu{
+    font-size: 3em;
+    border: solid;
+    border-color: black;
+    display: inline-block;
+}
+
+
+.bottom{
+    background-color: black;
+    font-size: 4em;
+    color: white;
+    padding: 1em;
+    text-align: center;
+
+}

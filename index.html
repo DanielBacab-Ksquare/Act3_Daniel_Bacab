@@ -10,11 +10,12 @@
 <body>
 
     <div class="top">
-        <header>
-            <img src="https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png" alt="Flutter logo" title="Flutter logo">
-            <h1>Flutter Restaurant</h1>
-        </header>
+        <img src="https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png" alt="Flutter logo" title="Flutter logo"> 
     </div>
+
+    <header>
+        <h1>Flutter Restaurant</h1>
+    </header>
 
 
     <div class="middle">
@@ -22,19 +23,19 @@
             <article>Complete the survey to be able to apply to one of our vacancies</article>
             
             <form>
-                <div class="form-element">
+                <div class="form-element" id="firstname">
                     <label for="first name">First name</label>
                     <input type="text" name="firstname" id="first name">
                 </div>
-                <div class="form-element">
+                <div class="form-element" id="lastname">
                     <label for="last name">Last name</label>
                     <input type="text" name="lastname" id="last name">
                 </div>
-                <div class="form-element">
+                <div class="form-element" id="email">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email">
                 </div>
-                <div class="form-element">
+                <div class="form-element" id="age">
                     <label for="age">Age</label>
                     <input type="number" name="age" id="age" min="18" max="65">
                 </div>
@@ -54,11 +55,58 @@
                     <input type = "checkbox"> I want to take a second survey later
                 </div>
 
+                <div class="form-element">
+                    <textarea  name="comment" form="usrform" rows="4" cols="50">In this space you can leave us your feedback and suggestions for the survey</textarea>
+                </div>
+
+
+
+                <div class="radbottommenu">
+                    <legend>How clear did you find this survey?</legend>
+
+                    <div class="radbottom">
+                    <input type="radio" id="not-clear" name="notclear" value="notclear"
+                            checked>
+                    <label for="not-clear">Not clear</label>
+                    </div>
+
+                    <div class="radbottom">
+                    <input type="radio" id="clear" name="clear" value="clear">
+                    <label for="clear">Clear</label>
+                    </div>
+
+                    <div class="radbottom">
+                    <input type="radio" id="very-clear" name="veryclear" value="veryclear">
+                    <label for="very-clear">Very clear</label>
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <input type="submit" value="Submit">
+                </div>
+
+
+
+
 
 
             </form>
         </section>
     </div>
+
+
+    <div class="bottom">
+        <footer>
+            <p>
+                For more information visit our <a href="https://flutter.dev/">WEB PAGE</a>
+            </p>
+        </footer>
+
+
+
+    </div>
+
+
 
 
 
