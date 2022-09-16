@@ -51,18 +51,7 @@ article{
 
 }
 
-#firstname{
-    display: inline-block;
-    position: relative;
-    left: -5em;
-}
 
-#lastname{
-    display: inline-block;
-    position: relative;
-    left: 9em;
-    top: -0.1em;
-}
 
 
 #commentbox{
